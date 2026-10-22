@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- RELLENAR: tu nombre en el título y la descripción -->
+  <title>Portafolio Personal</title>
+  <meta name="description" content="Portafolio personal de [Yahir Vela]: presentación, certificaciones y cursos, y datos de contacto.">
+  <meta name="theme-color" content="#0A2F27">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <a class="saltar" href="#contenido">Saltar al contenido principal</a>
+
+  <!-- ENCABEZADO + NAVEGACIÓN -->
+  <header class="encabezado">
+    <div class="encabezado__interior">
+      <h1 class="marca">Portafolio de <span>Josue Yahir Vela Hernandez</span></h1>
+      <nav aria-label="Navegación principal">
+        <ul class="menu">
+          <li><a href="#acerca">Acerca de mí</a></li>
+          <li><a href="#certificaciones">Certificaciones y cursos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <!-- ============ SECCIÓN 1: ACERCA DE MÍ ============ -->
+    <section id="acerca" class="seccion" aria-labelledby="titulo-acerca">
+      <div class="contenedor">
+        <h2 id="titulo-acerca" class="titulo-seccion">Acerca de mí</h2>
+
+        <article class="perfil">
+          <figure class="perfil__foto">
+            <!-- RELLENAR: cambia src por tu foto (ej. img/mi-foto.jpg) y describe la imagen en alt -->
+            <img src="img/Yo.png" alt="[Describe tu foto. Ej.: Retrato de Tu Nombre con camisa azul, sonriendo]" width="400" height="500">
+          </figure>
+
+          <div class="perfil__datos">
+            <p class="perfil__nombre">Josue Yahir Vela Hernandez</p>
+
+            <dl class="ficha">
+              <div><dt>Edad</dt><dd>19 años</dd></div>
+              <div><dt>Carrera</dt><dd>Ingenieria en Tecnologia de Software</dd></div>
+              <div><dt>Universidad</dt><dd>Universidad Autónoma de Nuevo León</dd></div>
+              <div><dt>Semestre</dt><dd>Quinto Semestre</dd></div>
+            </dl>
+
+            <!-- RELLENAR: escribe tu presentación en 1 o 2 párrafos -->
+            <p>Soy un estudiante de tiempo completo apasionado por las nuevas tecnologias emergentes aplicadas a problemas de la vida cotidiana, buscando oportunidades laborales en el área de desarrollo de software.</p>
+           
+
+            <h3 class="subtitulo">Habilidades</h3>
+            <ul class="chips">
+              <!-- RELLENAR: agrega o quita habilidades -->
+              <li>Liderazgo</li>
+              <li>Inglés</li>
+              <li>Python</li>
+              <li>Habilidades comunicativas</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ SECCIÓN 2: CERTIFICACIONES Y CURSOS ============ -->
+    <section id="certificaciones" class="seccion seccion--alt" aria-labelledby="titulo-certs">
+      <div class="contenedor">
+        <h2 id="titulo-certs" class="titulo-seccion">Certificaciones y cursos</h2>
+        <p class="intro">Tres certificaciones completadas y una en proceso.</p>
+
+        <ul class="lista-certs">
+
+          <!-- Certificación 1 (completada) -->
+          <li>
+            <article class="cert">
+              <figure class="cert__imagen">
+                <img src="img/CloudComputing.png" alt="[Describe el diploma 1. Ej.: Diploma del curso X emitido por la institución Y]" width="400" height="300" loading="lazy">
+              </figure>
+              <div class="cert__cuerpo">
+                <h3 class="cert__titulo">Introduction to cloud computing</h3>
+                <p class="cert__estado cert__estado--listo">Completada</p>
+                <p class="cert__desc">Me adentre a conceptos fundamentales de la nube asi como sus importancia en la industria tecnologica </p>
+                <dl class="cert__meta">
+                  <div><dt>Institución:</dt><dd>IBM</dd></div>
+                  <!-- RELLENAR: cambia el datetime (AAAA-MM) y el texto visible -->
+                  <div><dt>Fecha:</dt><dd><time datetime="2026-01">Octubre 2025</time></dd></div>
+                </dl>
+              </div>
+            </article>
+          </li>
+
+          <!-- Certificación 2 (completada) -->
+          <li>
+            <article class="cert">
+              <figure class="cert__imagen">
+                <img src="img/Github.png" alt="[Describe el diploma 2]" width="400" height="300" loading="lazy">
+              </figure>
+              <div class="cert__cuerpo">
+                <h3 class="cert__titulo">Getting Started with Git and GitHub</h3>
+                <p class="cert__estado cert__estado--listo">Completada</p>
+                <p class="cert__desc">Aprendi a manipular repositorios de Git y utilizar GitHub para colaboración en proyectos de desarrollo de software.</p>
+                <dl class="cert__meta">
+                  <div><dt>Institución:</dt><dd>IBM</dd></div>
+                  <div><dt>Fecha:</dt><dd><time datetime="2026-01">Dicimebre 2025</time></dd></div>
+                </dl>
+              </div>
+            </article>
+          </li>
+
+          <!-- Certificación 3 (completada) -->
+          <li>
+            <article class="cert">
+              <figure class="cert__imagen">
+                <img src="img/NeuralNetworks.png" alt="[Describe el diploma 3]" width="400" height="300" loading="lazy">
+              </figure>
+              <div class="cert__cuerpo">
+                <h3 class="cert__titulo">Neural Networks and Deep Learning</h3>
+                <p class="cert__estado cert__estado--listo">Completada</p>
+                <p class="cert__desc">Estudie las bases matematicas del calculo diferencial y funciones de optimizacion aplicadas al aprendizaje profundo.</p>
+                <dl class="cert__meta">
+                  <div><dt>Institución:</dt><dd>DeepLearning.AI</dd></div>
+                  <div><dt>Fecha:</dt><dd><time datetime="2026-01">Octubre 2026</time></dd></div>
+                </dl>
+              </div>
+            </article>
+          </li>
+
+          <!-- Certificación 4 (en proceso) -->
+          <li>
+            <article class="cert cert--proceso">
+              <figure class="cert__imagen">
+                <img src="img/EnProceso.png" alt="[Describe el logo o imagen del curso en proceso]" width="400" height="300" loading="lazy">
+              </figure>
+              <div class="cert__cuerpo">
+                <h3 class="cert__titulo">Python Programming Fundamentals</h3>
+                <p class="cert__estado cert__estado--proceso">En proceso</p>
+                <p class="cert__desc">Estoy estudiando los fundamentos del lenguaje de programación Python y cómo aplicarlos en proyectos prácticos.</p>
+                <dl class="cert__meta">
+                  <div><dt>Institución:</dt><dd>Microsoft</dd></div>
+                  <div><dt>Fecha estimada:</dt><dd><time datetime="2026-12">Noviembre 2026</time></dd></div>
+                </dl>
+              </div>
+            </article>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SECCIÓN 3: CONTACTO ============ -->
+    <section id="contacto" class="seccion seccion--contacto" aria-labelledby="titulo-contacto">
+      <div class="contenedor">
+        <h2 id="titulo-contacto" class="titulo-seccion">Contacto</h2>
+
+        <div class="contacto">
+
+          <article class="contacto__bloque">
+            <h3 class="subtitulo">Mis datos</h3>
+            <address class="contacto__datos">
+              <dl>
+                <!-- RELLENAR: cambia href y texto de cada enlace; borra los que no uses -->
+                <div><dt>Teléfono</dt><dd><a href="tel:+528124127680">+52 81 2412 7680</a></dd></div>
+                <div><dt>Correo</dt><dd><a href="mailto:velayahir5@gmail.com">velayahir5@gmail.com</a></dd></div>
+                <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/josue-yahir-vela-hernandez-0851682b6/?isSelfProfile=true" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/josue-yahir-vela-hernandez-0851682b6/?isSelfProfile=true<span class="visualmente-oculto"> (se abre en una pestaña nueva)</span></a></dd></div>
+                <div><dt>Ubicación</dt><dd>San Nicolas de los Garza, Nuevo León, México</dd></div>
+              </dl>
+            </address>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="pie">
+    <div class="pie__interior">
+      <p>&copy; Proyecto elaborado por Josue Yahir Vela Hernandez para el Laboratorio de programacion web.</p>
+      <p><a href="#contenido">Volver arriba</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
